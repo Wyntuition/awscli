@@ -1,8 +1,12 @@
 # awscli
 Run the AWS CLI without installing it locally, sucking in your access key credentials from env vars
 
-1. Set your AWS settings in the `.env` file in the repo root.
+1. Create a file in the repo root called `.env` and fill in the below with your values (never check that in - it is ignored in this repo):
 
-1. Run `source .env` (chmod 700 ./.env if needed) to set those to your environment variables. 
+    ```bash
+    export AWS_ACCESS_KEY_ID=<ENTER>
+    export AWS_SECRET_ACCESS_KEY=<ENTER>
+    export region=<ENTER>
+    ```
 
 1. Run `awscli-docker.sh` script to build & run the AWS CLI container passing your environment variables.
