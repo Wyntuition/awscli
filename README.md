@@ -1,5 +1,5 @@
-# awscli
-Run the AWS CLI without installing it locally, sucking in your access key credentials from env vars
+# awscli-docker
+Run the AWS CLI without installing it locally (in a Docker container), sucking in your access key credentials from env vars
 
 1. Create a file in the repo root called `.env` and fill in the below with your values (never check that in - it is ignored in this repo):
 
