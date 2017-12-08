@@ -10,3 +10,5 @@ Run the AWS CLI without installing it locally (in a Docker container), sucking i
     ```
 
 1. Run `awscli-docker.sh` script to build & run the AWS CLI container passing your environment variables.
+
+1. Run `aws` as needed in the bash that comes up in the container.
